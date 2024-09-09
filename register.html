@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/433888fe69.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://script.google.com/macros/s/AKfycbyaaS4UsEe1DBtBZJDqlq9aqIwmp4b1HY988-PTA2ZsbRo0NPyyh3oTSDVx4jzvihYK4Q/exec" method="post" name="google-sheet">
+            <h1>Registration Form</h1>
+            <div class="content">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="Name" required placeholder="Full Name">
+                    <span id="nameErr"></span>
+                </div>
+                <div class="input-box">
+                    <label for="name">Username</label>
+                    <input type="text" name="username" required placeholder="Username">
+                </div>
+                <div class="input-box">
+                    <label for="name">Email</label>
+                    <input type="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="input-box">
+                    <label for="name">Phone Number</label>
+                    <input type="tel" name="phone" required placeholder="Enter phone number">
+                </div>
+                <div class="input-box">
+                    <label for="name">Password</label>
+                    <input type="password" name="password" required placeholder="Enter password">
+                </div>
+                <div class="input-box">
+                    <label for="name">Confirm Password</label>
+                    <input type="password" name="password" required placeholder="Confirm password">
+                </div>
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="Other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div class="button-container">
+                <button id="submitbtn" type="submit">Register</button>
+            </div>
+
+        </form>
+    </div>
+    
+    
+</body>
+<script src="xyz.js"></script>
+</html>

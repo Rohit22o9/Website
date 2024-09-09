@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(new-cars-showroom-blurred-defocused-background_293060-434.avif) no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 35px;
+    color: #000000;
+}
+
+main {
+    text-align: justify;
+}
+
+h2 {
+    color: #000000;
+    margin-top: 25px;
+    font-size: 1.8em;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+section.content {
+    padding: 20px;
+}
